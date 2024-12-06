@@ -1,0 +1,119 @@
+[{
+    "id":1,
+    "stockName":"GSFC",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":2,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":3,
+    "stockName":"GSFC",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":4,
+    "stockName":"GSFC",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":5,
+    "stockName":"GSFC",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":6,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":7,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":8,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":9,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":10,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":11,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":12,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+},
+{
+    "id":13,
+    "stockName":"SBIN",
+    "transition_type":"buy",
+    "order_type":"intraday",
+    "quantity":2,
+    "placed_price":321,
+    "p/l":300
+}
+
+]

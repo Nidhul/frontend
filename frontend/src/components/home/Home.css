@@ -1,0 +1,195 @@
+.slick-slider {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.slider-container {
+    width: 100%; /* or any specific width you prefer */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.slick-initialized .slick-slide{
+    margin: 0px 10px;
+    
+}
+
+/* Base styles for slick slides */
+
+
+/* Small devices (mobile phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .slick-initialized .slick-slide {
+        margin: 0px 2px; 
+        padding: 4px;
+    }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slick-initialized .slick-slide {
+        margin: 0px 3px; /* Slightly larger margin on tablets */
+        padding: 4px;
+    }
+}
+
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slick-initialized .slick-slide {
+        margin: 0px 3px; /* Default margin for larger screens */
+        padding: 4px;
+    }
+}
+
+/* Extra large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+    .slick-initialized .slick-slide {
+        margin: 0px 4px; /* Larger margin for big screens */
+        padding: 4px;
+    }
+}
+
+
+/* investmentOptions */
+
+/* General Container */
+/* InvestmentOptions.css */
+
+.investment-container {
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin: 24px 0px;
+    border-radius: 5px;
+    width: 100%;
+    font-family: "Poppins";
+    padding: 16px;
+  }
+  
+  /* Light mode styles */
+  .light-mode {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .light-mode .investment-option-title {
+    color: #333;
+  }
+  
+  .light-mode .investment-option-description {
+    color: #666;
+  }
+  
+  
+  /* Dark mode styles */
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .investment-option-title {
+    color: #fff;
+  }
+  
+  .dark-mode .investment-option-description {
+    color: #bbb;
+  }
+  
+  /* Icon size adjustments */
+  .investment-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .mobile-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .desktop-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  
+  .light-mode {
+    background: #fff;
+  }
+  
+  .dark-mode {
+    background: #2A2A2A;
+  }
+  
+  /* Title */
+  .investment-title {
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-family: "Poppins";
+  }
+  
+  .mobile-title {
+    font-size: 1.1rem;
+  }
+  
+  .desktop-title {
+    font-size: 1.25rem;
+  }
+  
+  /* Option Styles */
+  .investment-option {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  
+  .mobile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  /* Icon Styles */
+  .investment-icon {
+    width: 30px;
+    height: 40px;
+    margin-right: 8px;
+  }
+  
+  .mobile-icon {
+    width: 24px;
+    height: 32px;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  
+  /* Text Styles */
+  .investment-option-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .dark-mode .investment-option-title {
+    color: #fff;
+  }
+  
+  .investment-option-description {
+    font-size: 0.875rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .investment-option-title {
+      font-size: 0.9rem;
+    }
+  
+    .investment-option-description {
+      font-size: 0.75rem;
+    }
+  }
+  
+
+
+
+  .home-page{
+    padding: 20px !important;
+  }

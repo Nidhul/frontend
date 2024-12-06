@@ -1,0 +1,170 @@
+.add-user-button{
+    text-align: end;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.add-user-button button{
+    border: none;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    background: #79c2f1;
+}
+.add-group-btn{
+    place-content: flex-end !important;
+}
+.add-group-btn input{
+    width: 100%;
+}
+.group-input{
+    width: 100%;
+    padding: 5px;
+    border: 1px sold grey;
+    border: 1px solid #c5c0c0;
+    border-radius: 3px;
+}
+.add-group-modal{
+    margin-bottom: 20px;
+}
+.table-container {
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow-x: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.view-options {
+    display: flex;
+    align-items: center;
+}
+
+.view-options label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.view-options select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 7px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    position: relative;
+}
+
+th i {
+    margin-left: 5px;
+}
+
+td {
+    max-width: 300px; /* Increased maximum width for better visibility of long addresses */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+td img {
+    width: 50px; /* Square width */
+    height: 50px; /* Square height */
+    border-radius: 5px; /* Square corners */
+    display: block;
+    margin: 0 auto; /* Centering the image */
+}
+/* Style for the button */
+
+/* General badge styling */
+
+
+/* Specific "Danger" badge styling */
+.badge-dark-modify {
+  background-color: #1f1c1d; /* Red color for danger */
+  color: white;
+  padding: 1px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.badge-danger-sqroff {
+  background-color: #dc3545; /* Red color for danger */
+  color: white;
+  padding: 1px 10px;
+  border-radius: 10px;
+  border: none;
+
+}
+.broker-modal select{
+    width: 100%;
+}
+.broker-modal input{
+    width: 100%;
+}
+.add-user-broker-submit{
+    width: 50%;
+    float: right;
+}
+.add-group-btn button{
+    width: 100%;
+    border: none;
+    background: #040499;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 3px;
+}
+.add-user{
+    text-align: left; 
+}
+.map-button{
+    text-align-last: right;
+    margin: 15px 0px;
+}
+.map-button button{
+    border: none;
+    background: #040499;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 3px;
+}
+.group-settings-button{
+    width: 100%;
+    color: black;
+}

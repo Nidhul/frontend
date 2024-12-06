@@ -1,0 +1,244 @@
+.login-bg{
+    background: linear-gradient(135deg, #141E30, #243B55);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  
+}
+
+.logo{
+    margin-top: 30px;
+    height: 70px;
+    width: 100px;
+    margin-left: 60px;
+}
+
+.main-body{
+    margin-top: 20px;
+    margin-left: 150px;
+    box-shadow: 10px;
+    padding: 0px 10px;
+}
+
+.main-head{
+    color:rgba(14,117,148,255);
+
+}
+.sub-head{
+    color:rgb(25, 102, 169);
+ 
+}
+.submit-button{
+  background-color: rgb(25, 102, 169) !important;
+}
+.position-relative button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.1); /* More transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Blurred background for effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    height: 100%;
+    margin: 30px;
+
+    
+}
+/* .input-group i{
+  color: rgb(226, 211, 211);
+} */
+ .bi-eye{
+  color: white;
+ }
+.input-field{
+  background-color: #141E30 !important;
+  color: rgb(214, 205, 205);
+border-radius: 10px;
+padding: 2px;
+margin-bottom: 8px;
+width: 100%;
+padding: 10px;
+
+
+}
+.input-field::placeholder {
+  color: rgb(225, 221, 221); /* Change to your desired color */
+  opacity: 1; /* Ensures full color opacity */
+}
+.buttons{
+
+  text-align: center;
+
+
+}
+/* .submit-btn{
+  width: 70% !important;
+
+} */
+.log-reg-head{
+  text-align: center;
+  color: #fff;
+  margin:20px;
+}
+
+.fields{
+    margin-top: 10px;
+}
+.register{
+    width: 190px;
+    color: white;
+    /* padding-left: 30px; */
+    padding-top: 20px;
+   
+}
+.register:hover{
+    color: rgb(8, 8, 104);
+}
+
+
+.password{
+    padding-top: 20px;
+    color: white;
+}
+.login-link{
+  color: white;
+  
+}
+.login-link:hover{
+  color: rgb(8, 8, 104);
+}
+ 
+.password:hover{
+    color: rgb(8, 8, 104);}
+
+/* modal for broker details */
+.broker-modal{
+display: flex;
+justify-content: center;
+text-align: center;
+
+/* border: 1px solid white; */
+/* border-radius: 20px; */
+
+}
+.form-fields{
+  height: 100%;
+  width: 90vh;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.form-fields select{
+  border-radius: 5px;
+  padding: 7px;
+
+}
+.form-fields input{
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid #d0c6c6;
+  margin-top: 10px;
+}
+.btn{
+  width: 60%;
+  height: 35px;
+  
+}
+::ng-deep input{
+  background-color: #141E30;
+}
+/*  */
+
+
+@media (max-width: 600px) {
+        .login-box {
+          /* height: 400px; */
+          width: 100%; /* Make the login-box take full width on small screens */
+          max-width: 400px; /* Set a maximum width for the login-box */
+          margin: 0 auto; /* Center the login-box */
+          margin-top: 10px;
+        }
+      
+        .main-body {
+          margin-left: 0; /* Remove left margin for small screens */
+          justify-content: center; /* Center the contents of the Grid */
+        }
+      
+        .logo {
+          margin-left: 0; /* Center the logo */
+          display: block; /* Ensure the logo is block-level */
+          margin: 0px auto;
+          padding: 10px; /* Center the logo with auto margins */
+        }
+      
+        .main-head, .sub-head {
+          text-align: center; /* Center the headings on small screens */
+          margin-top: 2px;
+        }
+      }
+
+      @media (min-width: 600px) and (max-width: 800px) {
+        .login-box {
+          
+          width: 100%; /* Make the login-box take full width on small screens */
+          max-width: 400px; /* Set a maximum width for the login-box */
+          margin: 0 auto; /* Center the login-box */
+          margin-top: 10px;
+        }
+      
+        .main-body {
+          margin-left: 0; /* Remove left margin for small screens */
+          justify-content: center; /* Center the contents of the Grid */
+        }
+      
+        .logo {
+          margin-left: 0; /* Center the logo */
+          display: block; /* Ensure the logo is block-level */
+          margin: 0px auto; /* Center the logo with auto margins */
+        }
+      
+        .main-head, .sub-head {
+          text-align: center; /* Center the headings on small screens */
+          margin-top: 10px;
+          text-align: center;
+        }
+
+      }
+
+      @media (min-width: 800px) and (max-width: 1200px) {
+        .login-box {
+          height: 100%;
+          width: 100%; /* Make the login-box take full width on small screens */
+          max-width: 400px; /* Set a maximum width for the login-box */
+          margin: 0 auto; /* Center the login-box */
+          margin-top: 10px;
+        }
+      
+        .main-body {
+          margin-left: 0; /* Remove left margin for small screens */
+          justify-content: center; /* Center the contents of the Grid */
+        }
+      
+        .logo {
+          margin-left: 0; /* Center the logo */
+          display: block; /* Ensure the logo is block-level */
+          margin: 0px auto; /* Center the logo with auto margins */
+        }
+      
+        .main-head, .sub-head {
+          text-align: center; /* Center the headings on small screens */
+          margin-top: 10px;
+          text-align: center;
+        }
+
+      }

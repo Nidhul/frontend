@@ -1,0 +1,50 @@
+
+.navbar-items {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .bi-person-circle{
+    color: black !important;
+  }
+  .bi-box-arrow-right{
+    padding: 5px;
+    color: black;
+  }
+  .logout-btn{
+    float:right;
+  }
+  .logout{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  /* .css-apl1oz-MuiButtonBase-root-MuiButton-root {
+    margin: 8px;
+  } */
+  .css-196v086-MuiButtonBase-root-MuiButton-root {
+    margin: 0px -29px;
+    }
+  /* Media query for screen widths between 600px and 800px */
+  @media (min-width: 600px) and (max-width: 800px) {
+    .navbar-items {
+      justify-content: space-between; 
+      overflow: hidden; 
+      white-space: nowrap; 
+      width: 100%; 
+    }
+  
+    .navbar-items button {
+      flex: 0 1 auto; 
+      text-align: center;
+      font-size: 10px;
+      margin: 0;
+      padding: 1px 1px;
+      min-width: 50px;
+    }
+    .navbar-logo{
+        height: 80px;
+        padding: 50px 30px;
+    }
+   
+  }
+  
